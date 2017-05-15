@@ -1,0 +1,7 @@
+[
+  { point: execute, consumed: true, nid: '0', require: 'pollen/hooks.rb', class: 'LaunchedPolHook' },
+  { point: return, consumed: true, require: 'pollen/hooks.rb', class: 'ReturnedPolHook' },
+  { point: terminated, consumed: true, require: 'pollen/hooks.rb', class: 'TerminatedPolHook' }
+  { error: true, require: 'pollen/hooks.rb', class: 'ErrorPolHook' }
+  { cancel: true, require: 'pollen/hooks.rb', class: 'CancelPolHook' }
+]
