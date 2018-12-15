@@ -1,4 +1,0 @@
-pol_prot: "http"
-pol_host: "localhost"
-pol_port: "3000"
-pol_path: "hookhandler"
