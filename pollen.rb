@@ -33,7 +33,7 @@ actions = ['launched', 'returned', 'terminated', 'error', 'cancel']
 actions.each do |a|
   eval "class #{a.capitalize}PollenHook < RestHook
     def on (conf, msg)
-      emit(a, msg)
+      emit(\"#{a}\", msg)
       [] # TODO
     end
   end"
